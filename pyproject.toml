@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "drf-api-deploy"
+version = "0.1.0"
+description = ""
+authors = ["Sian <sianculligan@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^3.1.7"
+djangorestframework = "^3.12.4"
+django-restframework = "^0.0.1"
+psycopg2-binary = "^2.8.6"
+djangorestframework-simplejwt = "^4.6.0"
+gunicorn = "^20.1.0"
+whitenoise = "^5.2.0"
+django-environ = "^0.4.5"
+django-cors-headers = "^3.7.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
